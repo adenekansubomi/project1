@@ -1,0 +1,113 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+
+.main{
+    width: 750px;
+    height: 420px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+
+.jun1{
+    width: 250px;
+    height: 420px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.jun2{
+    width: 250px;
+    height: 420px;
+    background-color: hsl(184, 100%, 22%);
+}
+.jun3{
+    width: 250px;
+    height: 420px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+img{
+    padding-left: 30px;
+    width: 70px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+h1{
+    padding-left: 30px;
+    padding-bottom: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    padding-left: 30px;
+    padding-bottom: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: 14px;
+
+}
+.btn1{
+    width: 130px;
+    height: 45px;
+    background-color: hsl(0, 0%, 95%); 
+    padding-top: 12px;
+    margin-left: 30px;
+    margin-top: 70px;
+    border-radius: 20px;
+    text-align: center;
+    color:  hsl(31, 77%, 52%);
+}
+
+.btn2{
+    width: 130px;
+    height: 45px;
+    background-color: hsl(0, 0%, 95%); 
+    padding-top: 12px;
+    margin-left: 30px;
+    margin-top: 70px;
+    color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    text-align: center;
+}
+.btn3{
+    width: 130px;
+    height: 45px;
+    background-color: hsl(0, 0%, 95%); 
+    padding-top: 12px;
+    margin-left: 30px;
+    margin-top: 70px;
+    color: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.btn1:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid  hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid  hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.btn3:hover{
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid  hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
